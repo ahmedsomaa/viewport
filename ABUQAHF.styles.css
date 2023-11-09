@@ -246,18 +246,18 @@ footer .icon {
     .icon {
         -webkit-animation: none;
         animation: none; /* or use a less intense animation or static state */
+    }  
+}
+
+@-webkit-keyframes icon-animation {
+    0% {
+        font-variation-settings: "TIME" 1;
     }
-    
-    @-webkit-keyframes icon-animation {
-        0% {
-            font-variation-settings: "TIME" 1;
-        }
-    }
-    
-    @keyframes icon-animation {
-        0% {
-            font-variation-settings: "TIME" 1;
-        }
+}
+
+@keyframes icon-animation {
+    0% {
+        font-variation-settings: "TIME" 1;
     }
 }
 
